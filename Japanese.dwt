@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>无标题文档</title>
+<!-- TemplateEndEditable -->
+<style type="text/css">
+body,td,th {
+	color: #000;
+}
+#apDiv1 {
+	position:absolute;
+	width:116px;
+	height:341px;
+	z-index:1;
+	left: 16px;
+	top: 198px;
+}
+#apDiv5 {
+	position:absolute;
+	width:773px;
+	height:141px;
+	z-index:5;
+	left: 14px;
+	top: 4px;
+}
+#apDiv6 {
+	position:absolute;
+	width:43px;
+	height:220px;
+	z-index:6;
+	left: 20px;
+	top: 507px;
+	color: #F00;
+	font-weight: bold;
+	font-size: xx-large;
+}
+#apDiv2 {
+	position:absolute;
+	width:700px;
+	height:809px;
+	z-index:7;
+	left: 179px;
+	top: 196px;
+	color: #FFF;
+}
+#apDiv3 {
+	position:absolute;
+	width:116px;
+	height:198px;
+	z-index:1;
+	left: 2px;
+	top: 769px;
+}
+#apDiv4 {
+	position:absolute;
+	width:133px;
+	height:194px;
+	z-index:8;
+	left: 4px;
+	top: 470px;
+}
+#apDiv7 {position:absolute;
+	width:116px;
+	height:198px;
+	z-index:1;
+	left: -1px;
+	top: 138px;
+}
+#apDiv8 {
+	position:absolute;
+	width:118px;
+	height:118px;
+	z-index:8;
+	left: 873px;
+	top: 13px;
+	background-color: #99FF66;
+	color: #0F0;
+}
+body {
+	background-color: #0BD91F;
+	color: #00CCFF;
+}
+.ass {
+	color: #000;
+}
+#apDiv1 p {
+	color: #000000;
+}
+</style>
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div id="apDiv1">
+  <p><a href="../japanesetop.html"><img src="../有机button.jpg" width="128" height="64" /></a><img src="../ninikubutton.jpg" width="132" height="60" /><img src="../hababutton.jpg" width="133" height="62" /><img src="../tomatobutton.jpg" width="131" height="61" /></p>
+<p>&nbsp;お問い合わせ</p>
+</div>
+<div id="apDiv5"><img src="../japtitle.jpg" width="772" height="136" /></div>
+<div id="apDiv2"> <!-- TemplateBeginEditable name="EditRegion1" -->
+  <p>reg</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+<!-- TemplateEndEditable --> </div>
+<p>&nbsp;</p>
+
+<div id="apDiv8"> &nbsp;&nbsp;
+  <p>&nbsp;&nbsp;<span style="color: #FF3"><a href="../japanesetop.html">日本語</a>&nbsp; </span></p>
+  <p>&nbsp;&nbsp;<a href="../chinesetop.html">中国语</a></p>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<hr />
+<p class="ass"> 株式会社 コッカファーム           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://inakagurashi-hiroshima.com/">株式会社　住吉</a><br />
+〒739-1101<br />
+広島県安芸高田市甲田町高田原1373-2<br />
+TEL:0826-45-7005<br />
+FAX:0826-45-3255<br />
+Copyright（C）inaka gurashi All Rights Reserved.new </p>
+<hr />
+</body>
+</html>
