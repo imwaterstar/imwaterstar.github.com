@@ -1,0 +1,137 @@
+<%@LANGUAGE="VBSCRIPT"%>
+<!--#include file="Connections/dda.asp" -->
+<%
+Dim rsq
+Dim rsq_cmd
+Dim rsq_numRows
+
+Set rsq_cmd = Server.CreateObject ("ADODB.Command")
+rsq_cmd.ActiveConnection = MM_dda_STRING
+rsq_cmd.CommandText = "SELECT * FROM table" 
+rsq_cmd.Prepared = true
+
+Set rsq = rsq_cmd.Execute
+rsq_numRows = 0
+%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/chinese.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>无标题文档</title>
+<!-- InstanceEndEditable -->
+<style type="text/css">
+body,td,th {
+	color: #000;
+}
+body {
+	background-color: #FF6;
+}
+#apDiv1 {
+	position:absolute;
+	width:116px;
+	height:261px;
+	z-index:1;
+	left: 11px;
+	top: 151px;
+}
+#apDiv5 {
+	position:absolute;
+	width:698px;
+	height:115px;
+	z-index:5;
+	left: 162px;
+	top: 20px;
+}
+#apDiv6 {	position:absolute;
+	width:518px;
+	height:106px;
+	z-index:6;
+	left: 362px;
+	top: 36px;
+	color: #F00;
+	font-weight: bold;
+	font-size: xx-large;
+}
+#apDiv2 {
+	position:absolute;
+	width:718px;
+	height:969px;
+	z-index:7;
+	left: 163px;
+	top: 157px;
+}
+#apDiv3 {
+	position:absolute;
+	width:116px;
+	height:198px;
+	z-index:1;
+	left: 2px;
+	top: 769px;
+}
+#apDiv4 {
+	position:absolute;
+	width:133px;
+	height:194px;
+	z-index:8;
+	left: 4px;
+	top: 470px;
+}
+#apDiv7 {position:absolute;
+	width:116px;
+	height:198px;
+	z-index:1;
+	left: -1px;
+	top: 138px;
+}
+#apDiv8 {
+	position:absolute;
+	width:118px;
+	height:104px;
+	z-index:8;
+	left: 915px;
+	top: 15px;
+	background-color: #FFFF33;
+	color: #F00;
+}
+</style>
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div id="apDiv1">
+  <p><a href="index.html">留学信息</a></p>
+  <p><a href="chinesesetup.html">投资信息</a></p>
+  <p><a href="chinesefood.html">日本概况</a></p>
+  <p><a href="tertioenglish.html">Tertio英语课</a></p>
+  <p><a href="chineseprogram.html">我们在日本</a></p>
+  <p><a href="chinesedrive.html">驾照攻略</a></p>
+  <p><a href="chineseaddr.html">联系我们</a></p>
+</div>
+<div id="apDiv5">
+  <div align="left"><img src="chinesetop.jpg" alt="" width="701" height="113" />  </div>
+</div>
+<div id="apDiv6">
+  <p>放&nbsp;飞&nbsp;梦&nbsp;想&nbsp;拥&nbsp;抱&nbsp;未&nbsp;来</p>
+</div>
+<div id="apDiv2">
+  <div align="left"><!-- InstanceBeginEditable name="EditRegion1" -->
+    <p>reg</p>
+<p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+  <!-- InstanceEndEditable --></div>
+</div>
+<p><img src="logoxiaonew.jpg" width="122" height="122" /></p>
+<div id="apDiv8"> &nbsp;&nbsp;
+  <p>&nbsp;&nbsp;<a href="japanesetop.html">日本語</a>&nbsp; </p>
+  <p>&nbsp;&nbsp;<a href="chinesetop.html">中国语</a></p>
+</div>
+</body>
+<!-- InstanceEnd --></html>
+<%
+rsq.Close()
+Set rsq = Nothing
+%>
